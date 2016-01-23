@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="EclipseModuleManager" forced_jdk="true">
+    <libelement value="jar://$MODULE_DIR$/DGame/libs/gdx.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/DGame-android/libs/gdx-backend-android.jar!/" />
+    <src_description expected_position="1">
+      <src_folder value="file://$MODULE_DIR$/DGame-android/src" expected_position="0" />
+      <src_folder value="file://$MODULE_DIR$/DGame-android/gen" expected_position="1" />
+      <src_folder value="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK" expected_position="4" />
+      <src_folder value="com.android.ide.eclipse.adt.LIBRARIES" expected_position="5" />
+    </src_description>
+  </component>
+  <component name="FacetManager">
+    <facet type="android" name="Android">
+      <configuration>
+        <option name="GEN_FOLDER_RELATIVE_PATH_APT" value="/DGame-android/gen" />
+        <option name="GEN_FOLDER_RELATIVE_PATH_AIDL" value="/DGame-android/gen" />
+        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/DGame-android/AndroidManifest.xml" />
+        <option name="RES_FOLDER_RELATIVE_PATH" value="/DGame-android/res" />
+        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/DGame-android/assets" />
+        <option name="LIBS_FOLDER_RELATIVE_PATH" value="/DGame-android/libs" />
+        <option name="PROGUARD_LOGS_FOLDER_RELATIVE_PATH" value="/DGame-android/proguard_logs" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/DGame-android/bin/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/DGame-android">
+      <sourceFolder url="file://$MODULE_DIR$/DGame-android/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/DGame-android/gen" isTestSource="false" generated="true" />
+    </content>
+    <orderEntry type="jdk" jdkName="Android API 15 Platform" jdkType="Android SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="DGame" exported="" />
+    <orderEntry type="module-library" exported="">
+      <library name="gdx.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/DGame/libs/gdx.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/DGame/libs/gdx-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="library" exported="" name="gdx-freetype" level="project" />
+  </component>
+</module>

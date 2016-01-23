@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="EclipseModuleManager">
+    <libelement value="jar://$MODULE_DIR$/DGame/libs/gdx.jar!/" />
+    <src_description expected_position="0">
+      <src_folder value="file://$MODULE_DIR$/DGame/src" expected_position="0" />
+    </src_description>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="false">
+    <output url="file://$MODULE_DIR$/DGame/bin" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/DGame">
+      <sourceFolder url="file://$MODULE_DIR$/DGame/src" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="jdk" jdkName="Android API 15 Platform" jdkType="Android SDK" />
+    <orderEntry type="module-library" exported="">
+      <library name="gdx.jar">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/DGame/libs/gdx.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$MODULE_DIR$/DGame/libs/gdx-sources.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="library" exported="" name="gdx-freetype" level="project" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES />
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://C:/Program Files/Java/jdk1.8.0_60" />
+        </SOURCES>
+        <jarDirectory url="file://C:/Program Files/Java/jdk1.8.0_60" recursive="false" type="SOURCES" />
+      </library>
+    </orderEntry>
+  </component>
+</module>
